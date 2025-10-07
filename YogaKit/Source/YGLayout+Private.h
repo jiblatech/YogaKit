@@ -8,7 +8,11 @@
  */
 
 #import "YGLayout.h"
+#if __has_include(<yoga/Yoga.h>)
 #import <yoga/Yoga.h>
+#else
+#import "Yoga.h"
+#endif
 
 @interface YGLayout ()
 
