@@ -48,7 +48,8 @@ let package = Package(
             path: "SwiftPM/YogaKit",
             sources: [
                 "YGLayoutExtensions.swift",
-                "YogaKitExports.swift"
+                "YogaKitExports.swift",
+                "EnumAliases.swift"
             ]
         )
     ]
