@@ -36,7 +36,7 @@ let package = Package(
             ],
             publicHeadersPath: ".",
             cSettings: [
-                .headerSearchPath("../../yoga")
+                .headerSearchPath("../..")
             ]
         ),
         .target(
