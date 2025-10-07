@@ -7,6 +7,11 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
+#if SWIFT_PACKAGE
+import YogaKitObjC
+import yoga
+#endif
+
 postfix operator %
 
 extension Int {

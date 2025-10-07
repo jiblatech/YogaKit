@@ -11,6 +11,10 @@ YogaKit is available to install via [CocoaPods](https://cocoapods.org/).
 pod 'YogaKit', '~> 1.7'
 ```
 
+### Swift Package Manager
+
+Add the repository URL to the **Package Dependencies** section in Xcode and select the `YogaKit` product (the C target `yoga` is also exposed for low-level access). SwiftPM currently supports iOS 11+, tvOS 11+, and macOS Catalyst 13+ in this fork.
+
 ## Getting Started
 Checkout the docs [here](https://facebook.github.io/yoga/docs/api/yogakit/).
 
